@@ -4,24 +4,24 @@
 - [x] Your Python program should be created in one file called BankAccount.py.
 - [x] Define a BankAccount class. A bank account should have the following attributes:
     - [x] full_name - the full name of the bank account account owner.
-    - [ ] account_number - randomly generated 8 digit number, unique per account.
+    - [x] account_number - randomly generated 8 digit number, unique per account.
     - [x] balance - the balance of money in the account, should start at 0.
 - [ ] Then define the following methods for the BankAccount class:
-    - [ ] deposit method
-        - [ ] will take one parameter amount and will add amount to the balance.
-        - [ ] will print the message: “Amount deposited: $X.XX new balance: $Y.YY”
+    - [x] deposit method
+        - [x] will take one parameter amount and will add amount to the balance.
+        - [x] will print the message: “Amount deposited: $X.XX new balance: $Y.YY”
     - [ ] withdraw method 
-        - [ ] will take one parameter amount and will subtract amount from the balance. 
-        - [ ] will print a message, like “Amount withdrawn: $X.XX new balance: $Y.YY”.
-        - [ ] If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
-    - [ ] get_balance method
-        - [ ] will print a user-friendly message with the account balance and then also return the current balance of the account.
+        - [x] will take one parameter amount and will subtract amount from the balance. 
+        - [x] will print a message, like “Amount withdrawn: $X.XX new balance: $Y.YY”.
+        - [x] If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
+    - [x] get_balance method
+        - [x] will print a user-friendly message with the account balance and then also return the current balance of the account.
     - [ ] add_interest method
-        - [ ] adds interest to the users balance.
-            - [ ] The annual interest rate is 1% (i.e. 0.083% per month).
-            - [ ] monthly interest is calculated by the following equation: interest = balance *  0.00083 .
-    - [ ] print_statement method
-        - [ ] prints a message with the account name, account number, and balance like this:
+        - [x] adds interest to the users balance.
+            - [x] The annual interest rate is 1% (i.e. 0.083% per month).
+            - [x] monthly interest is calculated by the following equation: interest = balance *  0.00083 .
+    - [x] print_statement method
+        - [x] prints a message with the account name, account number, and balance like this:
             ```
             Joi Anderson
             Account No.: ****5678
