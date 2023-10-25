@@ -39,21 +39,20 @@
     - [x] Print a statement
 
 ### Stretch Challenges (Optional)
-- [ ] Add an attribute to set the account type: checking or savings.
-- [ ] A savings account gets 1.2% insterest (that's 1% per month)
-- [ ] Create a checking and a savings account
-- [ ] Add interest to each account
-- [ ] Print a statement for each account
-- [ ] Create a list called: bank. Add all of your accounts to bank. Write a function that loops over all accounts in the list and calls the add_interst method of each.
-- [ ] Create an "application". Use a loop to prompt us for an action. Actions can be:
-    - [ ] Create account
-    - [ ] Prompt for name, number, and balance.
-    - [ ] Statement - prompts for the account number and prints the statement for that account.
-    - [ ] Deposit - prompts for account number and amount. Then makes a deposit.
-    - [ ] Withdraw - prompts for account number and amount. Then makes a withdrawl
-- [ ] Create a Bank class. This class will store a list of BackAccounts. It should implement the following methods:
-    - [ ] create_account() - creates a new account.
-    - [ ] deposit() - deposits an amount into an account with an account number
-    - [ ] withdraw() - removes an amount from an account with an account number
-    - [ ] transfer() - withdraws an amount from an account with an account number and deposits the same amount to an account with another number.
-    - [ ] statement() - prints an statement for an account with an account number.
+- [x] Add an attribute to set the account type: checking or savings.
+- [x] A savings account gets 1.2% insterest (that's 1% per month)
+- [x] Create a checking and a savings account
+- [x] Add interest to each account
+- [x] Print a statement for each account
+- [x] Create a list called: bank. (NOTE: called this accounts) Add all of your accounts to bank. Write a function that loops over all accounts in the list and calls the add_interst method of each.
+- [x] Create an "application". Use a loop to prompt us for an action. Actions can be:
+    - [x] Create account - Prompt for name, number, and balance.
+    - [x] Statement - prompts for the account number and prints the statement for that account.
+    - [x] Deposit - prompts for account number and amount. Then makes a deposit.
+    - [x] Withdraw - prompts for account number and amount. Then makes a withdrawl
+- [x] Create a Bank class. This class will store a list of BackAccounts. It should implement the following methods:
+    - [x] create_account() - creates a new account.
+    - [x] deposit() - deposits an amount into an account with an account number
+    - [x] withdraw() - removes an amount from an account with an account number
+    - [x] transfer() - withdraws an amount from an account with an account number and deposits the same amount to an account with another number.
+    - [x] statement() - prints an statement for an account with an account number.
